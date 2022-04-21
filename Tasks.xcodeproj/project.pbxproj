@@ -17,6 +17,7 @@
 		AC1D062D28113C7A00A292CA /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC1D062C28113C7A00A292CA /* sound-rise.mp3 */; };
 		AC1D062F28113C9300A292CA /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AC1D062E28113C9300A292CA /* sound-tap.mp3 */; };
 		AC1D063C28114A9200A292CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D063B28114A9200A292CA /* Constant.swift */; };
+		ACC144492811589A00B41FBB /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC144482811589A00B41FBB /* HideKeyboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AC1D062E28113C9300A292CA /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		AC1D063628113DAB00A292CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AC1D063B28114A9200A292CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ACC144482811589A00B41FBB /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		AC1D063228113CD500A292CA /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				ACC144482811589A00B41FBB /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				AC1D062428113B8E00A292CA /* Tasks.xcdatamodeld in Sources */,
 				AC1D062128113B8E00A292CA /* Persistence.swift in Sources */,
+				ACC144492811589A00B41FBB /* HideKeyboardExtension.swift in Sources */,
 				AC1D063C28114A9200A292CA /* Constant.swift in Sources */,
 				AC1D061A28113B8D00A292CA /* ContentView.swift in Sources */,
 				AC1D061828113B8D00A292CA /* TasksApp.swift in Sources */,
