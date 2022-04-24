@@ -19,6 +19,8 @@
 		AC1D063C28114A9200A292CA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1D063B28114A9200A292CA /* Constant.swift */; };
 		ACC144492811589A00B41FBB /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC144482811589A00B41FBB /* HideKeyboardExtension.swift */; };
 		ACC1444B281555AD00B41FBB /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1444A281555AD00B41FBB /* BackgroundImageView.swift */; };
+		ACC1444D2815586000B41FBB /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1444C2815586000B41FBB /* NewTaskItemView.swift */; };
+		ACC1444F28156A3B00B41FBB /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1444E28156A3B00B41FBB /* BlankView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		AC1D063B28114A9200A292CA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		ACC144482811589A00B41FBB /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		ACC1444A281555AD00B41FBB /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		ACC1444C2815586000B41FBB /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		ACC1444E28156A3B00B41FBB /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			children = (
 				AC1D061928113B8D00A292CA /* ContentView.swift */,
 				ACC1444A281555AD00B41FBB /* BackgroundImageView.swift */,
+				ACC1444C2815586000B41FBB /* NewTaskItemView.swift */,
+				ACC1444E28156A3B00B41FBB /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 				ACC1444B281555AD00B41FBB /* BackgroundImageView.swift in Sources */,
 				AC1D062128113B8E00A292CA /* Persistence.swift in Sources */,
 				ACC144492811589A00B41FBB /* HideKeyboardExtension.swift in Sources */,
+				ACC1444F28156A3B00B41FBB /* BlankView.swift in Sources */,
 				AC1D063C28114A9200A292CA /* Constant.swift in Sources */,
 				AC1D061A28113B8D00A292CA /* ContentView.swift in Sources */,
 				AC1D061828113B8D00A292CA /* TasksApp.swift in Sources */,
+				ACC1444D2815586000B41FBB /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
